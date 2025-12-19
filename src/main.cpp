@@ -5,7 +5,7 @@
 #include <rclc/executor.h>
 #include <std_msgs/msg/int32.h>
 #include <std_msgs/msg/bool.h>
-
+#include <secrets.h>
 // DEFINES
 #define LED_BUILTIN 2 // Ensure this matches your board
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
